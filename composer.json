@@ -3,7 +3,7 @@
     "description": "Creates middleware to use cognito oAuth token for authentication in Laravel",
     "type": "library",
     "require": {
-        "laravel/laravel": ">8",
+        "laravel/framework": ">8",
         "aws/aws-sdk-php": "^3.233"
     },
     "license": "MIT",
