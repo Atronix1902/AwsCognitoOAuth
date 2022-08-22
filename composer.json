@@ -1,0 +1,21 @@
+{
+    "name": "atronix/laravel_cognito_oauth",
+    "description": "Creates middleware to use cognito oAuth token for authentication in Laravel",
+    "type": "library",
+    "require": {
+        "laravel/laravel": "^8",
+        "aws/aws-sdk-php": "^3.233"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Atronix\\LaravelCognitoOAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Steven-Hendrik Kriebel",
+            "email": "steven.hendrik@kriebel.tech"
+        }
+    ]
+}
